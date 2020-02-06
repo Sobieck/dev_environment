@@ -13,3 +13,5 @@ else {
 }
 
 Set-Theme DarkBlood
+
+$env:Path += ";C:\tools"
