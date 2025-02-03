@@ -1,0 +1,10 @@
+Put files in "Folder To Encrypt" on the desktop
+
+Run the following to make the archive
+
+7z a -p -mem=AES256 -tzip /home/sobieck/Desktop/documents.zip /home/sobieck/Desktop/folderToEncrypt
+
+
+Make sure we have AES 256
+
+7z l -slt /home/sobieck/Desktop/documents.zip
